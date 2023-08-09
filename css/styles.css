@@ -1,0 +1,187 @@
+:root {
+    --white: #FFF;
+    --navyblue: #2E2F42;
+    --slate: #434455;
+    --iris: #4D5AE5;
+    --cornflower: #E7E9FC;
+    --cloud: #F4F4FD;
+}
+
+body {
+    background-color: var(--white);
+    font-family: "Roboto", sans-serif;
+    color: var(--slate);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.button {
+    background-color: var(--iris, #4D5AE5);
+    cursor: pointer;
+    color: var(--white, #FFF);
+
+    /* Button Text */
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.64px;
+}
+
+button:hover,
+button:focus {
+    background-color: var(--ocean, #404BBF);
+}
+
+.nav {
+    color: #2E2F42;
+    /* Body Medium */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.32px;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus {
+    color: var(--ocean, #404BBF);
+}
+
+.logo {
+    color: var(--iris, #4D5AE5);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+}
+
+.address {
+    font-style: normal;
+}
+
+.titleaddr {
+    color: var(--slate, #434455);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.32px;
+    text-decoration: none;
+}
+
+
+address a:hover,
+address a:focus {
+    color: var(--ocean, #404BBF);
+}
+
+.secthero {
+    background: var(--navyblue, #2E2F42);
+}
+
+.ourteam {
+    background: var(--cloud, #F4F4FD);
+}
+
+.title {
+    color: var(--white, #FFF);
+    text-align: center;
+
+    /* Header 1 */
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.07;
+    /* 107.143% */
+    letter-spacing: 1.12px;
+}
+
+.our-team {
+    color: var(--navyblue, #2E2F42);
+    text-align: center;
+
+    /* Header 2 */
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.paragraf {
+    color: var(--navyblue, #2E2F42);
+
+    /* Header 3 */
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    /* 120% */
+    letter-spacing: 0.4px;
+}
+
+.deskr {
+    color: var(--slate, #434455);
+
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.32px;
+}
+
+.team {
+    background: var(--white, #FFF);
+}
+
+.footer {
+    background: var(--navyblue, #2E2F42);
+}
+
+.studio {
+    color: var(--cloud, #F4F4FD);
+}
+
+.studio1 {
+    color: var(--navyblue, #2E2F42);
+
+}
+
+.footdeskr {
+    color: var(--cloud, #F4F4FD);
+
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.32px;
+}
+
+.sect-team {
+    background-color: #F4F4FD;
+}
