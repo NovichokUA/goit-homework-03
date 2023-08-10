@@ -24,16 +24,27 @@ p {
     list-style-type: none;
 }
 
+img {
+    display: block;
+}
+
+.container-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .container {
     display: flex;
     width: 1158px;
     margin: 0 auto;
     border-bottom: 1px solid var(--cornflower, #E7E9FC);
     background: var(--white, #FFF);
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .contnav {
     display: flex;
+    align-items: center;
 }
 
 .contul {
@@ -63,7 +74,8 @@ p {
     text-decoration: none;
     display: inline-flex;
     align-self: center;
-    padding: 0 76px 0 0;
+    padding: 0;
+    margin-right: 76px;
 }
 
 .nav {
@@ -77,6 +89,7 @@ p {
     /* 150% */
     letter-spacing: 0.32px;
     text-decoration: none;
+    padding: 24px 0 24px 0;
 
 }
 
