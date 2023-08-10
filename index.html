@@ -3,6 +3,13 @@
   <head>
     <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
     <meta charset="UTF-8" />
@@ -19,37 +26,41 @@
   </head>
   <body>
     <header>
-      <nav>
-        <a href="./index.html" class="logo"
-          >Web<span class="studio1">Studio</span></a
-        >
-        <ul>
-          <li><a href="./index.html" class="nav">Studio</a></li>
-          <li><a href="./index.html" class="nav">Portfolio</a></li>
-          <li><a href="" class="nav">Contacts</a></li>
-        </ul>
-      </nav>
-      <address class="address">
-        <ul>
-          <li>
-            <a class="titleaddr" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+110001111111" class="titleaddr"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container">
+        <nav class="contnav">
+          <a href="./index.html" class="logo"
+            >Web<span class="studio1">Studio</span></a
+          >
+          <ul class="contul">
+            <li><a href="./index.html" class="nav">Studio</a></li>
+            <li><a href="./index.html" class="nav">Portfolio</a></li>
+            <li><a href="" class="nav">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="address">
+          <ul class="contuladr">
+            <li>
+              <a class="titleaddr" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="titleaddr"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <!--hero image-->
     <main>
       <!--section-hero image-->
       <section class="secthero">
-        <h1 class="title">Effective Solutions for Your Business</h1>
-        <button class="button" type="button">Order Service</button>
+        <div class="conntainer">
+          <h1 class="title">Effective Solutions for Your Business</h1>
+          <button class="button" type="button">Order Service</button>
+        </div>
       </section>
       <!--section-1-->
       <section class="sect-team">
