@@ -137,7 +137,7 @@ nav a:focus {
     /* 150% */
     letter-spacing: 0.64px;
     display: block;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     border: none;
     border-radius: 4px;
@@ -168,7 +168,7 @@ button:focus {
     line-height: 1.07;
     /* 107.143% */
     letter-spacing: 1.12px;
-    width: 496px;
+    max-width: 496px;
 }
 
 .ourteam {
