@@ -156,6 +156,17 @@ button:focus {
     padding: 188px 0 188px;
 }
 
+.visually-hidden {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+
 .title {
     color: var(--white, #FFF);
     text-align: center;
@@ -171,11 +182,15 @@ button:focus {
     max-width: 496px;
 }
 
+.section-dascr {
+    background-color: #F4F4FD;
+}
+
 .ourteam {
     background: var(--cloud, #F4F4FD);
 }
 
-.our-team {
+.features {
     color: var(--navyblue, #2E2F42);
     text-align: center;
 
@@ -240,8 +255,4 @@ button:focus {
     line-height: 1.5;
     /* 150% */
     letter-spacing: 0.32px;
-}
-
-.sect-team {
-    background-color: #F4F4FD;
 }
