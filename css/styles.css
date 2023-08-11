@@ -247,10 +247,6 @@ button:focus {
     padding: 120px 0;
 }
 
-.container-column {
-    flex-direction: column;
-}
-
 .container-ourteam {
     display: flex;
     gap: 24px;
