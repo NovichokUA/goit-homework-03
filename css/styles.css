@@ -184,6 +184,7 @@ button:focus {
 
 .section-dascr {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .ourteam {
@@ -216,6 +217,9 @@ button:focus {
     line-height: 1.2;
     /* 120% */
     letter-spacing: 0.4px;
+    min-width: 264px;
+    height: 24px;
+    margin-bottom: 8px;
 }
 
 .deskr {
@@ -229,6 +233,16 @@ button:focus {
     line-height: 1.5;
     /* 150% */
     letter-spacing: 0.32px;
+}
+
+.section-dascr-list {
+    display: flex;
+    gap: 24px;
+    padding: 0;
+}
+
+.item {
+    width: calc((100% - 72px) / 4);
 }
 
 .team {
