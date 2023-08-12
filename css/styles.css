@@ -277,7 +277,7 @@ button:focus {
 }
 
 .container-portfolio-descr-item {
-    width: calc((100% - 48px) / 3);
+    width: calc((100%-48px)/3);
 }
 
 .section-portfolio {
@@ -312,7 +312,8 @@ button:focus {
 
 .footer {
     background: var(--navyblue, #2E2F42);
-    padding: 100px 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .logo-footer {
