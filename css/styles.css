@@ -61,6 +61,10 @@ img {
     padding-left: 332px;
 }
 
+.container-column {
+    flex-direction: column;
+}
+
 .logo {
     color: var(--iris, #4D5AE5);
     font-size: 18px;
@@ -212,9 +216,7 @@ button:focus {
     line-height: 1.2;
     /* 120% */
     letter-spacing: 0.4px;
-    min-width: 264px;
-    height: 24px;
-    margin-bottom: 8px;
+    margin: 0 0 8px 0;
     text-align: center;
 }
 
@@ -230,6 +232,8 @@ button:focus {
     /* 150% */
     letter-spacing: 0.32px;
     text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 .section-dascr-list {
@@ -263,8 +267,44 @@ button:focus {
     border-radius: 0px 0px 4px 4px;
 }
 
+.container-portfolio-descr {
+    display: flex;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.container-portfolio-descr-item {
+    width: calc((100%-24*2)/3);
+}
+
+.section-portfolio {
+    padding: 120px 0;
+}
+
+
+.container-paragraf {
+    margin: 32px 0;
+}
+
+.container-paragraf h3 {
+    text-align: start;
+    margin-left: 16px;
+}
+
+.container-paragraf p {
+    text-align: start;
+    margin-left: 16px;
+}
+
+
 .footer {
     background: var(--navyblue, #2E2F42);
+}
+
+.container-logo {
+    padding: 100px 1020px 100px 156px;
 }
 
 .studio {
@@ -283,4 +323,6 @@ button:focus {
     line-height: 1.5;
     /* 150% */
     letter-spacing: 0.32px;
+    width: 264px;
+    margin: 16px 0 0 0;
 }
